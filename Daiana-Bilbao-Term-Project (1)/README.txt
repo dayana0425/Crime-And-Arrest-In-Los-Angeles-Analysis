@@ -8,7 +8,7 @@ This is my(Daiana) portion of the term project. With the following programs, I a
 HOW TO RUN:
 (1) sbt clean
 (2) sbt package (Compile/Create JAR file)
-(3) $SPARK_HOME/bin/spark-submit --class main.scala.<Scala File> --deploy-mode client --supervise wordcountscala_2.11-0.1.jar <HDFS INPUT PATH> <HDFS OUTPUT PATH>
+(3) $SPARK_HOME/bin/spark-submit --class main.scala.<Scala Program Name> --deploy-mode client --supervise wordcountscala_2.11-0.1.jar <HDFS INPUT PATH> <HDFS OUTPUT PATH>
 
 Examples:
 $SPARK_HOME/bin/spark-submit --class main.scala.SafestestTimeOfDayBasedOnCrime --deploy-mode client --supervise wordcountscala_2.11-0.1.jar /data/crime-and-arrest-data/crime-data-from-2010-to-present.csv /SafestTimesOfDayMean
